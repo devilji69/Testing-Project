@@ -39,5 +39,7 @@ app.use(function(err, req, res, next) {
 });
 
 console.log("566**---3-dsdsd-",process.env.PORT);
-
+app.listen(process.env.PORT,()=>{
+  console.log("Sdsdsds----dsdsd");
+})
 module.exports = app;
