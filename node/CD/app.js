@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-app.set('view engine', '.hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -40,8 +39,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-console.log("566**---3-dsdsd-",process.env.PORT);
+console.log("port-",process.env.PORT);
 app.listen(process.env.PORT,()=>{
-  console.log("Sdsdsds----dsdsd");
+  console.log("start project");
 })
 module.exports = app;
