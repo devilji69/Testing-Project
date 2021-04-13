@@ -5,7 +5,6 @@ Step to run project
 
 1 npm install <br>
 2 add your credentials in .env file<br>
-3 npm run server
+3 npm run server<br>
 4 run http://localhost:2021/
 
-*
