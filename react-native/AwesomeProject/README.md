@@ -14,3 +14,5 @@ other terminal open run
 
 
 
+add sdk path in file
+\AwesomeProject\android\local.properties
