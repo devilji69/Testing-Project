@@ -1,5 +1,11 @@
 ***Follow step and run project***
 
+**Setup React native in your system**
+
+Follw link: >> https://reactnative.dev/docs/environment-setup
+Now select tab **React Native CLI Quickstart**
+
+
 npm install
 
 go to project direactory
